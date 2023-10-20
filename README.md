@@ -1,2 +1,2 @@
 # micro-frontends-demo
-Repository dedicated to learning micro-frontends. Host is a Vue app, Remote is a React app.
+Repository dedicated to learning micro-frontends. Host is a React app, Remote is a React app as well.
