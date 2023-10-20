@@ -46,7 +46,9 @@ module.exports = (_, argv) => ({
       remotes: {
         remote: "remote@http://localhost:3000/remoteEntry.js",
       },
-      exposes: {},
+      exposes: {
+        "./Timer": "./src/Timer.jsx"
+      },
       shared: {
         ...deps,
         react: {
